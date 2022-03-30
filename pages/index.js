@@ -1,17 +1,15 @@
-import Link from 'next/link'
+import Footer from "../comps/footer";
+import Navbar from "../comps/navbar";
 
 const Home = () => {
   return ( 
 
-    <p>
-      <h1>this is home page</h1>
-      <Link href="/createindex"><a>create index</a></Link>
-      
-      <h1>security</h1>
-      <h1>education</h1>
-      <h1>medical</h1>
-      <h1>revenue</h1>
-    </p>
+    <div>
+      <Navbar />
+
+      <h1>home page</h1>
+      <Footer />
+    </div>
    );
 }
  
