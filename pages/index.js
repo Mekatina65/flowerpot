@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Footer from "../comps/footer";
 import Navbar from "../comps/navbar";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
 
       <h1>home page</h1>
+      <Link href="/richie"><a>test</a></Link>
       <Footer />
     </div>
    );
